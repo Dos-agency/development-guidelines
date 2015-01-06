@@ -9,7 +9,7 @@ The same content should never be available under two different URLs, especially 
 
 Add the following in your .htaccess to always redirect to the url without www. at the front. 
 
-````
+````apacheconf
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteCond %{HTTPS} !=on
